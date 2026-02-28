@@ -9,7 +9,6 @@ const io = new Server(server,{
     cors:{
         // Yahan localhost:5173 add karna zaroori hai local testing ke liye
         origin: [
-            'http://localhost:5173', 
             'https://chat-app-0epu.onrender.com'
         ],
         methods: ["GET", "POST"]
