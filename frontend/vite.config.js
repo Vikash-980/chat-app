@@ -9,7 +9,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'https://chat-app-0epu.onrender.com',
+        target:'https://chat-app-0epu.onrender.com/',
         secure:false
       }
     }
